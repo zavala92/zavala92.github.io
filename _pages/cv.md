@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+#title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,59 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- **PhD in Mathematics**, TU Dresden, Germany (expected June 2025)  
+  *Institute of Numerical Mathematics & CASUS*  
+  Thesis: *Spectral Discretizations on Curved Surfaces: High-Order Methods for Integration and PDE Solvers*
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **MSc in Mathematical Engineering**, Polytechnic University of Tirana, Albania (2015)  
+  Thesis: *Finite Element Methods for Stationary Problems with Non-Homogeneous Dirichlet Conditions*  
+  Supervisor: Prof. Dr. Lulëzim Hanelli
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- **BSc in Mathematical Engineering**, Polytechnic University of Tirana, Albania (2013)  
+  Thesis: *A Numerical-Analytic Study of Hyperbolic Equations*  
+  Supervisor: Prof. Dr. Lulëzim Hanelli
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+---
+
+## Teaching
+
+**Polytechnic University of Tirana**  
+- *Full-time TA (2021–2024)*: Linear Algebra, Calculus I–III, Probability, Complex Analysis, Numerical Analysis, PDEs  
+- *Part-time TA (2015–2017)*: Calculus I, Probability, Complex Analysis, Numerical Analysis, PDEs  
+
+**University of Tirana – Faculty of Economy**  
+- *Part-time TA (Spring 2018)*: Mathematics I
+
+---
+
+## Research Experience
+
+- **PhD Researcher**, TU Dresden (Nov 2024 – present)  
+  *Institute of Numerical Mathematics*  
+
+- **PhD Researcher**, CASUS / TU Dresden (Apr 2021 – Oct 2024)  
+  *Mathematical Foundations of Complex Systems, CASUS*  
+  Project: High-order spectral methods on curved surfaces for numerical integration and PDE solvers
+
+
+---
+
+## Research Visits
+
+- **University of Wrocław**, Poland (Jan 2023)  
+  With Michael Hecht & Phil-Alexander Hofmann
+
+---
+
+## Software Projects
+
+- 🔗 [**minterpy-levelsets**](https://github.com/minterpy-project/minterpy-levelsets)  
+  Numerical differential geometry on smooth surfaces via Global Polynomial Level Sets (GPLS)
+
+- 🔗 [**surfgeopy**](https://github.com/casus/surfgeopy)  
+  Surface integral approximation over smooth, embedded manifolds
+
+- 🔗 [**surfpy**](https://github.com/casus/surfpy)  
+  Spectral surface integration on embedded manifolds

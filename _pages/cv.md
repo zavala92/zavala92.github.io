@@ -11,7 +11,7 @@ redirect_from:
 
 ## Education
 
-- **PhD in Mathematics**, TU Dresden, Germany (expected June 2025)  
+- **PhD in Mathematics**, TU Dresden, Germany  
   *Institute of Numerical Mathematics & CASUS*  
   Thesis: *Spectral Discretizations on Curved Surfaces: High-Order Methods for Integration and PDE Solvers*
 

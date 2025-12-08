@@ -17,3 +17,5 @@ My research interests are on high-order methods for computing scalar and vector-
 
 📘 This semester I am teaching a course on **Approximation Theory** at [TU Dresden](https://tu-dresden.de/mn/math/numerik).  
 The course discusses both the **theoretical foundations** and **practical aspects** of approximating and interpolating functions, with a focus on **high-order polynomials, trigonometric series, and rational functions**.  
+
+📝 The lecture notes on Approximation Theory are available here ["Approximation Theory"](/files/Notes%20on%20Approximation%20Theory.pdf){:target="_blank"} and are continuously updated throughout the semester.

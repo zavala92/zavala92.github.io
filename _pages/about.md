@@ -18,6 +18,22 @@ It centers on three main themes:
 - **Accurate computation of surface integrals**  
 - A **fast direct solver** for elliptic partial differential equations on static and dynamic surfaces
 
+  
+The patterns below are solutions of a coupled reaction–diffusion model on the sphere. The first image shows the baseline pattern, while the others illustrate how linear, quadratic, and cubic coupling terms modify the structure of the solution.
+
+
+ <p align="center">
+  <img src="/files/up_1_q.png" width="22%" />
+  <img src="/files/v1_q1_-0.55.png" width="22%" />
+  <img src="/files/v1_q2_0.55.png" width="22%" />
+  <img src="/files/v1_q3_-0.55.png" width="22%" />
+   
+  <br>
+  <strong>Figure:</strong> Left to right — baseline pattern, and patterns produced by linear, quadratic, and cubic coupling in an interacting Turing system.
+.
+</p>
+
+
 
 
 

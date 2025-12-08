@@ -11,15 +11,12 @@ redirect_from:
 
 My name is Gentian Zavalani. I am a PhD student at the Institute of Numerical Mathematics, [TU Dresden](https://tu-dresden.de/mn/math/numerik){:target="_blank"}, Germany. My supervisors are [Oliver Sander](https://tu-dresden.de/mn/math/numerik/sander/startseite){:target="_blank"} and [Michael Hecht](https://sites.google.com/view/prof-dr-michael-hecht/home?authuser=0){:target="_blank"}.
 
-During my PhD, I focused on numerical methods for solving partial differential equations (PDEs) posed on smooth two-dimensional surfaces embedded in \( \mathbb{R}^3 \). My work is motivated by applications in biology and physics and involves developing fast algorithms and spectral methods for solving PDEs efficiently on complex geometries.  
+During my PhD, I focused on numerical methods for solving partial differential equations (PDEs) posed on smooth two-dimensional surfaces embedded in $\mathbf{R}^3$. My work is motivated by applications in biology and physics and involves developing fast algorithms and spectral methods for solving PDEs efficiently on complex geometries.  
 It centers on three main themes:
 
 - **High-order polynomial approximations** of curved surfaces  
 - **Accurate computation of surface integrals**  
 - A **fast direct solver** for elliptic partial differential equations on static and dynamic surfaces
-
-  
-The patterns below are solutions of a coupled reaction–diffusion model on the sphere. The first image shows the baseline pattern, while the others illustrate how linear, quadratic, and cubic coupling terms modify the structure of the solution.
 
 
  <p align="center">

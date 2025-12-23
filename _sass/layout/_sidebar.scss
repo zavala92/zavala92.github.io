@@ -95,9 +95,9 @@
 
   img {
     width: 175px;
-    height: 175px;
+    height: 185px;
     object-fit: cover;
-    border-radius: 0;   // <-- makes it square
+    border-radius: 6px;   // <-- makes it square
 
     @include breakpoint($large) {
       padding: 5px;

@@ -97,7 +97,7 @@
     width: 175px;
     height: 175px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 0;   // <-- makes it square
 
     @include breakpoint($large) {
       padding: 5px;

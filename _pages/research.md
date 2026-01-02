@@ -22,8 +22,10 @@ author_profile: true
 
 
 
-Published
+Papers
 ======  
+
+* [*Fast high-order spectral solvers for PDEs on triangulated surfaces with applications to deforming surfaces*](https://arxiv.org/abs/2512.24456). (Submitted)
 * [*High-Order Integration on Regular Triangulated Manifolds Reaches Super-Algebraic Approximation Rates through Cubical Re-parameterizations*](https://epubs.siam.org/doi/full/10.1137/24M1707274) . Joint with Oliver Sander and Michael Hecht. *SIAM Journal on Numerical Analysis(SINUM)*
 * [*Global Polynomial Level Sets for Numerical Differential Geometry of Smooth Closed Surfaces*](https://epubs.siam.org/doi/full/10.1137/22M1536510) . Joint with Sachin K. Thekke Veettil, Uwe Hernandez Acosta, Ivo F. Sbalzarini, and Michael Hecht. *SIAM Journal on Computing (SICOMP)*.  
 * [*A Note on the Rate of Convergence of Integration Schemes for Closed Surfaces*](https://link.springer.com/article/10.1007/s40314-024-02611-y?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20240218&utm_content=10.1007/s40314-024-02611-y) . Joint with Elima Shehu and Michael Hecht. *Computational and Applied Mathematics, Springer*.  

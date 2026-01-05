@@ -25,14 +25,14 @@ redirect_from:
 
 ---
 
-## Teaching
+## Teaching Experience
+
+**Technische Universität Dresden**  
+- *Lecturer (Winter Semester 2025/26)*: Approximation Theory  
 
 **Polytechnic University of Tirana**  
-- *Full-time TA (2021–2024)*: Linear Algebra, Calculus I–III, Probability, Complex Analysis, Numerical Analysis, PDEs  
-- *Part-time TA (2015–2017)*: Calculus I, Probability, Complex Analysis, Numerical Analysis, PDEs  
-
-**University of Tirana – Faculty of Economy**  
-- *Part-time TA (Spring 2018)*: Mathematics I
+- *Full-time Teaching Assistant (2017–2021)*: Linear Algebra, Calculus I–III, Probability, Complex Analysis, Numerical Analysis, PDEs  
+- *Part-time Teaching Assistant (2015–2017)*: Calculus I, Probability, Complex Analysis, Numerical Analysis, PDEs  
 
 ---
 

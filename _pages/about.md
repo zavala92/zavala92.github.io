@@ -11,9 +11,7 @@ redirect_from:
 My name is **Gentian Zavalani**. I am a PhD student at the Institute of Numerical Mathematics,  
 [TU Dresden](https://tu-dresden.de/mn/math/numerik), Germany.  
 
-My supervisors are  
-[Prof. Oliver Sander](https://tu-dresden.de/mn/math/numerik/sander/startseite) and  
-[Prof. Michael Hecht](https://sites.google.com/view/prof-dr-michael-hecht/home?authuser=0).  
+My supervisors are [Prof. Oliver Sander](https://tu-dresden.de/mn/math/numerik/sander/startseite) and [Prof. Michael Hecht](https://sites.google.com/view/prof-dr-michael-hecht/home?authuser=0).  
 
 I expect to defend my PhD thesis in **February**.
 

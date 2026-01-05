@@ -8,8 +8,15 @@ redirect_from:
   - /about.html
 ---
 
+My name is **Gentian Zavalani**. I am a PhD student at the Institute of Numerical Mathematics,  
+[TU Dresden](https://tu-dresden.de/mn/math/numerik), Germany.  
 
-My name is Gentian Zavalani. I am a PhD student at the Institute of Numerical Mathematics, [TU Dresden](https://tu-dresden.de/mn/math/numerik){:target="_blank"}, Germany. My supervisors are [Oliver Sander](https://tu-dresden.de/mn/math/numerik/sander/startseite){:target="_blank"} and [Michael Hecht](https://sites.google.com/view/prof-dr-michael-hecht/home?authuser=0){:target="_blank"}.
+My supervisors are  
+[Prof. Oliver Sander](https://tu-dresden.de/mn/math/numerik/sander/startseite) and  
+[Prof. Michael Hecht](https://sites.google.com/view/prof-dr-michael-hecht/home?authuser=0).  
+
+I expect to defend my PhD thesis in **February**.
+
 
 During my PhD, I focused on numerical methods for solving partial differential equations (PDEs) posed on smooth two-dimensional surfaces embedded in $R^3$. My work is motivated by applications in biology and physics and involves developing fast algorithms and spectral methods for solving PDEs efficiently on complex geometries.  
 

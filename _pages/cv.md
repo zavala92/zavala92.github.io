@@ -55,6 +55,12 @@ redirect_from:
 
 ---
 
+## Professional Memberships
+
+- American Mathematical Society (AMS), Member (2025-2026) — Institute nomination
+
+---
+
 ## Software Projects
 
 - 🔗 [**minterpy-levelsets**](https://github.com/minterpy-project/minterpy-levelsets)  

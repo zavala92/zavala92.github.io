@@ -33,7 +33,6 @@ It centers on three main themes:
    
   <br>
   <strong>Figure:</strong> Left to right — baseline pattern, and patterns produced by linear, quadratic, and cubic coupling in an interacting Turing system.
-.
 </p>
 
 

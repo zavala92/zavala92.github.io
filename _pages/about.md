@@ -13,10 +13,10 @@ My name is **Gentian Zavalani**. I am a PhD student at the Institute of Numerica
 
 My supervisors are [Prof. Oliver Sander](https://tu-dresden.de/mn/math/numerik/sander/startseite) and [Prof. Michael Hecht](https://sites.google.com/view/prof-dr-michael-hecht/home?authuser=0).  
 
-I expect to defend my PhD thesis in **February**.
+I will defend my PhD thesis on **March 11**.
 
 
-During my PhD, I focused on numerical methods for solving partial differential equations (PDEs) posed on smooth two-dimensional surfaces embedded in $R^3$. My work is motivated by applications in biology and physics and involves developing fast algorithms and spectral methods for solving PDEs efficiently on complex geometries.  
+During my PhD, I focused on numerical methods for solving partial differential equations (PDEs) posed on smooth two-dimensional surfaces embedded in $\mathbb{R}^3$. My work is motivated by applications in biology and physics and involves developing fast algorithms and spectral methods for solving PDEs efficiently on complex geometries.  
 
 It centers on three main themes:
 

@@ -8,6 +8,14 @@ author_profile: true
 
 ## Upcoming Events
 
+### [WCCM–ECCOMAS 2026 – 17th World Congress on Computational Mechanics & 10th European Congress on Computational Methods in Applied Sciences and Engineering](https://wccm-eccomas2026.org/)
+- **Dates:** July 19–24, 2026  
+- **Location:** Munich, Germany
+
+---
+
+## Past Events
+
 ### [International Congress on Spectral and High-Order Methods (ICOSAHOM 2025)](https://icosahom2025.org/)
 - **Role:** Co-Organizer, Mini-Symposium MS 128  
 - **Dates:** July 13–18, 2025  
@@ -17,10 +25,6 @@ author_profile: true
 ### [European Conference on Numerical Mathematics and Advanced Applications (ENUMATH 2025)](https://www.enumath2025.eu/)
 - **Dates:** September 1–5, 2025  
 - **Location:** Heidelberg, Germany
-
----
-
-## Past Events
 
 ### 12th Conference on Applied Mathematics and Scientific Computing  
 - **Dates:** September 23–27, 2024  

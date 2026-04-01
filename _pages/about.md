@@ -8,12 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-My name is **Gentian Zavalani**. I am currently a **Wrap-up Postdoc** at the Institute of Numerical Mathematics,  
-[TU Dresden](https://tu-dresden.de/mn/math/numerik), Germany.  
+My name is **Gentian Zavalani**. I am currently a **Wrap-up Postdoc** at the Institute of Numerical Mathematics, [TU Dresden](https://tu-dresden.de/mn/math/numerik), Germany.  
 
 I completed my PhD under the supervision of [Prof. Oliver Sander](https://tu-dresden.de/mn/math/numerik/sander/startseite) and [Prof. Michael Hecht](https://sites.google.com/view/prof-dr-michael-hecht/home?authuser=0).  
 
-During my PhD, I focused on the development and analysis of numerical methods for partial differential equations (PDEs) posed on smooth two-dimensional surfaces embedded in $\mathbb{R}^3$. My work is motivated by applications in biology and physics and aims at designing fast and accurate algorithms for complex geometries.  
+During my PhD, I focused on the development and analysis of numerical methods for partial differential equations (PDEs) posed on smooth two-dimensional surfaces. My work is motivated by applications in biology and physics and aims at designing fast and accurate algorithms for complex geometries.  
 
 It centers on three main themes:
 

@@ -35,8 +35,8 @@ It centers on three main themes:
 
 
 
-📘 This semester I am teaching a course on **Approximation Theory** at [TU Dresden](https://tu-dresden.de/mn/math/numerik).  
-The course discusses both the **theoretical foundations** and **practical aspects** of approximating and interpolating functions, with a focus on **high-order polynomials, trigonometric series, and rational functions**.  
+📘 **Winter Semester 2025/26 (WiSe 2025/26):**  
+I taught a course on **Approximation Theory** at [TU Dresden](https://tu-dresden.de/mn/math/numerik).  
+The course covered both the **theoretical foundations** and **practical aspects** of function approximation and interpolation, with a focus on **high-order polynomials, trigonometric series, and rational functions**.  
 
-
-📝 The lecture notes on Approximation Theory are available here ["Approximation Theory"](/files/Notes%20on%20Approximation%20Theory.pdf){:target="_blank"} and are continuously updated throughout the semester.
+📝 Lecture notes are available here ["Approximation Theory"](/files/Notes%20on%20Approximation%20Theory.pdf){:target="_blank"}.

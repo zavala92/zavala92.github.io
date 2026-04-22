@@ -12,6 +12,10 @@ author_profile: true
 - **Dates:** July 19–24, 2026  
 - **Location:** Munich, Germany
 
+### A High-Order Fast Direct Solver for Surface PDEs  
+**TU Bergakademie Freiberg – Seminar (Aland Lab)**  
+- **Date:** April 30, 2026
+
 ---
 
 ## Past Events

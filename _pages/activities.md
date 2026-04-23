@@ -8,7 +8,7 @@ author_profile: true
 
 ## Upcoming Events
 
-### — Talk (MS235)! [WCCM–ECCOMAS 2026 – 17th World Congress on Computational Mechanics & 10th European Congress on Computational Methods in Applied Sciences and Engineering](https://wccm-eccomas2026.org/)
+### Talk (MS235)! [WCCM–ECCOMAS 2026 – 17th World Congress on Computational Mechanics & 10th European Congress on Computational Methods in Applied Sciences and Engineering](https://wccm-eccomas2026.org/)
 - **Dates:** July 19–24, 2026  
 - **Location:** Munich, Germany
 

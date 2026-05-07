@@ -12,7 +12,7 @@ locale                   : "en-UK"
 title                    : "Gentian Zavalani"
 title_separator          : "-"
 name                     : &name "Gentian Zavalani"
-description              : &description "PhD student in Mathematics"
+description              : &description "Postdoctoral researcher in numerical mathematics"
 url                      : https://zavala92.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zavala92/zavala92.github.io"
@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "Gentian Zavalani"
   avatar           : "profile.jpg"
-  bio              : "PhD student in Mathematics"
+  bio              : "Postdoctoral researcher in numerical mathematics"
   location         : "TU Dresden"
   employer         : # "TU Dresden"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -98,7 +98,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # "academicpages"
+  github           : "zavala92"
   google_plus      :
   keybase          :
   instagram        :

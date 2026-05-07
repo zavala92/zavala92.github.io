@@ -49,8 +49,28 @@
   ul {
     margin: 0;
     padding: 0;
-    clear: both;
     list-style-type: none;
+  }
+}
+
+.site-nav {
+  background: var(--global-bg-color);
+
+  .visible-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.25rem;
+  }
+
+  a {
+    display: block;
+    color: var(--global-masthead-link-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-masthead-link-color-hover);
+    }
   }
 }
 
@@ -61,7 +81,17 @@
   white-space: nowrap;
 
   &--lg {
-    padding-right: 2em;
+    padding-right: 1.25em;
     font-weight: 700;
+  }
+}
+
+.masthead__theme-toggle {
+  margin-left: auto;
+
+  a {
+    width: 25px;
+    text-align: center;
+    cursor: pointer;
   }
 }

@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Gentian Zavalani"
-excerpt: "Numerical mathematics researcher working on high-order methods for PDEs on surfaces."
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -11,53 +11,77 @@ redirect_from:
 <section class="home-hero home-hero--lab">
   <div class="home-hero__copy">
     <p class="home-eyebrow">Numerical Mathematics | TU Dresden</p>
-    <h2>Geometry-aware algorithms for PDEs on surfaces.</h2>
+    <h2>Numerical methods for PDEs on smooth surfaces.</h2>
     <p class="home-lead">
-      I am a Wrap-up Postdoc at the Institute of Numerical Mathematics, <a href="https://tu-dresden.de/mn/math/numerik">TU Dresden</a>.
-      My work turns curved, moving geometries into accurate computational objects: approximated, integrated, and solved with high-order numerical methods.
+      My name is <strong>Gentian Zavalani</strong>. I am currently a <strong>Wrap-up Postdoc</strong> at the Institute of Numerical Mathematics,
+      <a href="https://tu-dresden.de/mn/math/numerik">TU Dresden</a>, Germany.
+    </p>
+    <p>
+      I completed my PhD under the supervision of
+      <a href="https://tu-dresden.de/mn/math/numerik/sander/startseite">Prof. Oliver Sander</a>
+      and <a href="https://sites.google.com/view/prof-dr-michael-hecht/home?authuser=0">Prof. Michael Hecht</a>.
+    </p>
+    <p>
+      During my PhD, I focused on the development and analysis of numerical methods for partial differential equations (PDEs) posed on smooth two-dimensional surfaces.
+      My work is motivated by applications in biology and physics and aims at designing fast and accurate algorithms for complex geometries.
     </p>
     <div class="home-actions">
-      <a class="btn btn--primary" href="/research/">Explore Research</a>
-      <a class="btn btn--inverse" href="/cv/">View CV</a>
-      <a class="btn btn--inverse" href="mailto:gentian.zavalani@tu-dresden.de">Contact</a>
+      <a class="btn btn--primary" href="/research/">Research</a>
+      <a class="btn btn--inverse" href="/cv/">CV</a>
+      <a class="btn btn--inverse" href="/activities/">Activities</a>
     </div>
   </div>
 
-  <div class="surface-lab" aria-label="Animated high-order surface approximation">
-    <canvas id="surface-lab-canvas" width="720" height="520"></canvas>
-    <div class="surface-lab__readout">
-      <span>surface PDE</span>
-      <span>high-order geometry</span>
-      <span>fast solvers</span>
+  <div class="surface-lab" aria-label="Rotating research images">
+    <div class="surface-lab__stage">
+      <img class="surface-lab__image is-active" src="/images/research/surface_fitting.png" alt="High-order surface fitting">
+      <img class="surface-lab__image" src="/images/research/swiss_cheese_mesh.png" alt="Swiss cheese surface with mesh">
+      <img class="surface-lab__image" src="/images/research/swiss_spot_t0.png" alt="Reaction diffusion state on Swiss cheese surface">
+      <img class="surface-lab__image" src="/images/research/swiss_t_200.png" alt="Later reaction diffusion state on Swiss cheese surface">
+      <img class="surface-lab__image" src="/images/research/swiss_t_600.png" alt="Reaction diffusion evolution on Swiss cheese surface">
+      <img class="surface-lab__image" src="/images/research/clenshaw_convergence.png" alt="Convergence plot for Clenshaw method">
+      <img class="surface-lab__image" src="/images/research/surface_lab_reference.png" alt="Point sets on smooth surfaces">
+      <p class="surface-lab__caption">High-order surface fitting</p>
+    </div>
+    <div class="research-coordinates" aria-label="Research coordinates">
+      <div>
+        <span class="coordinate-value">PDEs</span>
+        <span class="coordinate-label">on smooth surfaces</span>
+      </div>
+      <div>
+        <span class="coordinate-value">High-order</span>
+        <span class="coordinate-label">geometry and quadrature</span>
+      </div>
+      <div>
+        <span class="coordinate-value">Direct</span>
+        <span class="coordinate-label">solvers for elliptic systems</span>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="research-coordinates" aria-label="Research coordinates">
-  <div>
-    <span class="coordinate-value">PDEs</span>
-    <span class="coordinate-label">on smooth surfaces</span>
-  </div>
-  <div>
-    <span class="coordinate-value">High-order</span>
-    <span class="coordinate-label">geometry and quadrature</span>
-  </div>
-  <div>
-    <span class="coordinate-value">Direct</span>
-    <span class="coordinate-label">solvers for elliptic systems</span>
-  </div>
-</section>
+<nav class="home-pathways" aria-label="Main sections">
+  <a href="/research/">
+    <span>Research</span>
+    <small>Methods, publications, and current directions</small>
+  </a>
+  <a href="/cv/">
+    <span>CV</span>
+    <small>Education, positions, teaching, and academic record</small>
+  </a>
+  <a href="/activities/">
+    <span>Activities</span>
+    <small>Seminars, talks, conferences, and community work</small>
+  </a>
+</nav>
 
 <section class="home-panel research-manifesto">
   <div>
-    <p class="home-eyebrow">Research spine</p>
-    <h2>From curved geometry to computable structure.</h2>
+    <p class="home-eyebrow">Research focus</p>
+    <h2>My work centers on three main themes.</h2>
   </div>
   <p>
-    I completed my PhD under the supervision of
-    <a href="https://tu-dresden.de/mn/math/numerik/sander/startseite">Prof. Oliver Sander</a>
-    and <a href="https://sites.google.com/view/prof-dr-michael-hecht/home?authuser=0">Prof. Michael Hecht</a>.
-    My research builds reliable approximation, integration, and solver strategies for complex surface geometries, with applications motivated by biology and physics.
+    These themes connect the geometry of smooth surfaces with the numerical analysis needed for accurate, efficient computation.
   </p>
 </section>
 

@@ -1,6 +1,6 @@
 ---
 layout: archive
-#title: "CV"
+title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,8 +11,10 @@ redirect_from:
 
 ## Education
 
-- **PhD in Mathematics**, TU Dresden, Germany  
-  *Institute of Numerical Mathematics & CASUS*  
+- **PhD in Mathematics**, TU Dresden, Germany
+
+  Institute of Numerical Mathematics and CASUS
+
   Thesis: *Spectral Discretizations on Curved Surfaces: High-Order Methods for Integration and PDE Solvers*
 
 - **MSc in Mathematical Engineering**, Polytechnic University of Tirana, Albania (2015)  
@@ -28,21 +30,31 @@ redirect_from:
 ## Teaching Experience
 
 **Technische Universität Dresden**  
-- *Lecturer (Winter Semester 2025/26)*: Approximation Theory  
+- **Lecturer**, Winter Semester 2025/26
+
+  Approximation Theory
 
 **Polytechnic University of Tirana**  
-- *Full-time Teaching Assistant (2017–2021)*: Linear Algebra, Calculus I–III, Probability, Complex Analysis, Numerical Analysis, PDEs  
-- *Part-time Teaching Assistant (2015–2017)*: Calculus I, Probability, Complex Analysis, Numerical Analysis, PDEs  
+- **Full-time Teaching Assistant**, 2017-2021
+
+  Linear Algebra, Calculus I-III, Probability, Complex Analysis, Numerical Analysis, PDEs
+
+- **Part-time Teaching Assistant**, 2015-2017
+
+  Calculus I, Probability, Complex Analysis, Numerical Analysis, PDEs
 
 ---
 
 ## Research Experience
 
-- **PhD Researcher**, TU Dresden (Nov 2024 – present)  
-  *Institute of Numerical Mathematics*  
+- **Wrap-up Postdoc**, TU Dresden (Nov 2024-present)
 
-- **PhD Researcher**, CASUS / TU Dresden (Apr 2021 – Oct 2024)  
-  *Mathematical Foundations of Complex Systems, CASUS*  
+  Institute of Numerical Mathematics
+
+- **PhD Researcher**, CASUS / TU Dresden (Apr 2021-Oct 2024)
+
+  Mathematical Foundations of Complex Systems, CASUS
+
   Project: High-order spectral methods on curved surfaces for numerical integration and PDE solvers
 
 
@@ -57,17 +69,22 @@ redirect_from:
 
 ## Professional Memberships
 
-- American Mathematical Society (AMS), Member (2025-2026) — Institute nomination
+- **American Mathematical Society (AMS)**, Member (2025-2026)
+
+  Institute nomination
 
 ---
 
-## Software Projects
+## Software
 
-- 🔗 [**minterpy-levelsets**](https://github.com/minterpy-project/minterpy-levelsets)  
-  Numerical differential geometry on smooth surfaces via Global Polynomial Level Sets (GPLS)
+- [**pysurfacefun**](https://pysurfacefun.readthedocs.io/en/latest/)  
+  High-order discretizations and fast direct solvers for PDEs on smooth surfaces.
 
-- 🔗 [**surfgeopy**](https://github.com/casus/surfgeopy)  
-  Surface integral approximation over smooth, embedded manifolds
+- [**surfgeopy**](https://github.com/casus/surfgeopy)  
+  Surface integral approximation over smooth embedded manifolds.
 
-- 🔗 [**surfpy**](https://github.com/casus/surfpy)  
-  Spectral surface integration on embedded manifolds
+- [**surfpy**](https://github.com/casus/surfpy)  
+  Spectral surface integration on embedded manifolds.
+
+- [**minterpy-levelsets**](https://github.com/minterpy-project/minterpy-levelsets)  
+  Numerical differential geometry on smooth surfaces via global polynomial level sets.

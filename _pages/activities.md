@@ -1,5 +1,6 @@
 ---
 layout: archive
+title: "Activities"
 permalink: /activities/
 author_profile: true
 ---
@@ -8,56 +9,73 @@ author_profile: true
 
 ## Upcoming Events
 
-### Talk (MS235)! [WCCM–ECCOMAS 2026 – 17th World Congress on Computational Mechanics & 10th European Congress on Computational Methods in Applied Sciences and Engineering](https://wccm-eccomas2026.org/)
-- **Dates:** July 19–24, 2026  
+### [WCCM-ECCOMAS 2026](https://wccm-eccomas2026.org/)
+
+**17th World Congress on Computational Mechanics & 10th European Congress on Computational Methods in Applied Sciences and Engineering**
+
+- **Role:** Speaker, Mini-Symposium MS235
+- **Dates:** July 19-24, 2026
 - **Location:** Munich, Germany
 
-### A High-Order Fast Direct Solver for Surface PDEs  
-**TU Bergakademie Freiberg – Seminar (Aland Lab)**  
+### TU Bergakademie Freiberg, Aland Lab Seminar
+
+- **Talk:** *A High-Order Fast Direct Solver for Surface PDEs*
 - **Date:** April 30, 2026
+- **Location:** Freiberg, Germany
 
 ---
 
 ## Past Events
 
 ### [International Congress on Spectral and High-Order Methods (ICOSAHOM 2025)](https://icosahom2025.org/)
-- **Role:** Co-Organizer, Mini-Symposium MS 128  
-- **Dates:** July 13–18, 2025  
-- **Location:** Montréal, Canada  
-- **In collaboration with:** Michael Hecht and Phil-Alexander Hofmann
+
+- **Role:** Co-organizer, Mini-Symposium MS128
+- **Dates:** July 13-18, 2025
+- **Location:** Montréal, Canada
+- **Collaborators:** Michael Hecht and Phil-Alexander Hofmann
 
 ### [European Conference on Numerical Mathematics and Advanced Applications (ENUMATH 2025)](https://www.enumath2025.eu/)
-- **Dates:** September 1–5, 2025  
+
+- **Dates:** September 1-5, 2025
 - **Location:** Heidelberg, Germany
 
 ### 12th Conference on Applied Mathematics and Scientific Computing  
-- **Dates:** September 23–27, 2024  
+
+- **Dates:** September 23-27, 2024
 - **Location:** Dubrovnik, Croatia
 
-### SIGMA 2024 – Signal, Image, Geometry, Modelling, Approximation  
-- **Dates:** October 28 – November 2, 2024  
+### SIGMA 2024: Signal, Image, Geometry, Modelling, Approximation
+
+- **Dates:** October 28-November 2, 2024
 - **Location:** CIRM, Marseille
 
 ### Workshop on Numerical Differential Geometry and Kernel Methods  
-- **Dates:** September 12–14, 2023  
+
+- **Dates:** September 12-14, 2023
 - **Location:** CASUS/HZDR, Görlitz, Germany
 
-### ENUMATH 2023 – European Conference on Numerical Mathematics and Advanced Applications  
-- **Dates:** September 4–8, 2023  
+### ENUMATH 2023: European Conference on Numerical Mathematics and Advanced Applications
+
+- **Dates:** September 4-8, 2023
 - **Location:** Lisbon, Portugal
 
-### Numerical Analysis in the 21st Century – Honoring the Retirement of Nick Trefethen  
-- **Dates:** August 14–17, 2023  
+### Numerical Analysis in the 21st Century: Honoring the Retirement of Nick Trefethen
+
+- **Dates:** August 14-17, 2023
 - **Location:** Blavatnik School of Government and Balliol College, Oxford, United Kingdom
 
-### SIAM Conference on Computational Science and Engineering (CSE23)  
-- **Dates:** February 26 – March 3, 2023  
+### SIAM Conference on Computational Science and Engineering (CSE23)
+
+- **Dates:** February 26-March 3, 2023
 - **Location:** Amsterdam, Netherlands
 
-### Research Visit with Michael Hecht and Phil-Alexander Hofmann  
-- **Dates:** January 2023  
+### Research Visit: University of Wrocław
+
+- **Dates:** January 2023
 - **Location:** University of Wrocław, Poland
+- **With:** Michael Hecht and Phil-Alexander Hofmann
 
 ### 11th Conference on Applied Mathematics and Scientific Computing  
-- **Dates:** September 5–9, 2022  
+
+- **Dates:** September 5-9, 2022
 - **Location:** Brijuni, Croatia

@@ -47,5 +47,5 @@ Papers
 - 🔗 [**surfpy**](https://github.com/casus/surfpy)  
   Spectral surface integration on embedded manifolds
 
-  - 🔗 [**minterpy-levelsets**](https://github.com/minterpy-project/minterpy-levelsets)  
+- 🔗 [**minterpy-levelsets**](https://github.com/minterpy-project/minterpy-levelsets)  
   Numerical differential geometry on smooth surfaces via Global Polynomial Level Sets (GPLS)

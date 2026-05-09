@@ -18,7 +18,7 @@ It centers on three main themes:
 
 - **High-order polynomial approximations of curved surfaces**  
 - **Accurate computation of surface integrals**  
-- **Fast direct solvers for elliptic PDEs on static and evolving surfaces**
+- **Fast direct solvers for elliptic PDEs on surfaces**
 
 
  <p align="center">

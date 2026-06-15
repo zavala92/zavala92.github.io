@@ -41,3 +41,8 @@ author_profile: true
 
 - [**minterpy-levelsets**](https://github.com/minterpy-project/minterpy-levelsets)  
   Numerical differential geometry on smooth surfaces via global polynomial level sets.
+
+## PhD Thesis
+[*Spectral Discretizations on Surfaces: High-Order Methods for Integration and PDE Solvers*](https://github.com/zavala92/zavala92.github.io/blob/master/files/PhD_Thesis_Gentian.pdf).  
+Technische Universität Dresden (2026) 
+(supervised by Oliver Sander \& Michael Hecht)

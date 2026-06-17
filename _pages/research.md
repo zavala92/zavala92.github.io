@@ -39,8 +39,9 @@ author_profile: true
 - [**surfpy**](https://github.com/casus/surfpy)  
   Spectral surface integration on embedded manifolds.
 
-- [**minterpy-levelsets**](https://github.com/minterpy-project/minterpy-levelsets)  
-  Numerical differential geometry on smooth surfaces via global polynomial level sets.
+- [**minterpy-levelsets**](https://github.com/zavala92/minterpy_levelsets)  
+  Numerical differential geometry on smooth surfaces via global polynomial level sets.  
+  Recently upgraded with high-order surface quadrature, enclosed volume computation, and geometric invariant integration using an Algoim/C++ backend.
 
 ## PhD Thesis
 [*Spectral Discretizations on Surfaces: High-Order Methods for Integration and PDE Solvers*](https://github.com/zavala92/zavala92.github.io/blob/master/files/PhD_Thesis_Gentian.pdf).  

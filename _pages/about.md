@@ -16,9 +16,14 @@ During my PhD, I focused on the development and analysis of numerical methods fo
 
 It centers on three main themes:
 
-- **High-order polynomial approximations of curved surfaces**  
-- **Accurate computation of surface integrals**  
-- **Fast direct solvers for elliptic PDEs on surfaces**
+- **High-order approximation and quadrature on curved surfaces**  
+  Polynomial and spectral representations of surface geometry, together with accurate numerical integration on complex geometries.
+
+- **Fast direct solvers for surface PDEs**  
+  High-order discretization techniques and efficient solvers for elliptic, parabolic, and nonlinear partial differential equations posed on surfaces.
+
+- **Computational dynamics on evolving surfaces**  
+  Numerical simulation of transport, diffusion, and pattern formation processes on curved and evolving geometries.
 
 
  <p align="center">
@@ -32,26 +37,22 @@ It centers on three main themes:
 </p>
 
 
-
-<div style="display: flex; align-items: center; gap: 2.5rem; margin: 2.5em 0; padding: 1.6rem; background: #fbfaf0; flex-wrap: wrap;">
-  <div style="flex: 0 1 380px; min-width: 260px;">
-    <video style="width: 100%; max-width: 380px; height: auto; display: block; border: 1px solid #222;" controls autoplay muted loop playsinline>
+<div style="display: flex; align-items: center; gap: 1.5rem; margin: 2em 0; flex-wrap: wrap;">
+  <div style="flex: 0 1 360px; min-width: 260px; text-align: center;">
+    <video style="width: 100%; max-width: 360px; height: auto; display: block; margin: 0 auto;" controls autoplay muted loop playsinline>
       <source src="/files/vortex_hps_sphere_n.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
 
-  <div style="flex: 1 1 340px; min-width: 260px;">
-    <h3 style="margin: 0 0 0.75rem; color: #2f365f; font-size: 1.45em; line-height: 1.25;">
-      Surface vortex roll-up with HPS
-    </h3>
-    <p style="font-size: 1.05em; line-height: 1.75; color: #808080; margin: 0;">
+  <div style="flex: 1 1 280px; min-width: 260px;">
+    <p style="font-size: 0.95em; margin: 0;">
+      <strong>Surface vortex roll-up with HPS.</strong><br>
       High-order HPS simulation of incompressible vorticity dynamics on a spherical surface.
       A perturbed equatorial vortex sheet self-organizes into coherent moving vortices.
     </p>
   </div>
 </div>
-
 
 
 📘 **Winter Semester 2025/26 (WiSe 2025/26):**  

@@ -17,13 +17,11 @@ During my PhD, I focused on the development and analysis of numerical methods fo
 It centers on three main themes:
 
 - **High-order approximation and quadrature on curved surfaces**  
-  Polynomial and spectral representations of surface geometry, together with accurate numerical integration on complex geometries.
 
 - **Fast direct solvers for surface PDEs**  
-  High-order discretization techniques and efficient solvers for elliptic, parabolic, and nonlinear partial differential equations posed on surfaces.
 
 - **Computational dynamics on evolving surfaces**  
-  Numerical simulation of transport, diffusion, and pattern formation processes on curved and evolving geometries.
+
 
 
  <p align="center">

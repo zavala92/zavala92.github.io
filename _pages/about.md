@@ -33,17 +33,21 @@ It centers on three main themes:
 
 
 
-<div style="text-align: center; margin: 2em 0;">
-  <video width="80%" controls autoplay muted loop playsinline>
-    <source src="/files/vortex_hps_sphere_n.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<div style="display: flex; align-items: center; gap: 1.5rem; margin: 2em 0; flex-wrap: wrap;">
+  <div style="flex: 1 1 280px; min-width: 260px;">
+    <p style="font-size: 0.95em; margin: 0;">
+      <strong>Surface vortex roll-up with HPS.</strong><br>
+      High-order HPS simulation of incompressible vorticity dynamics on a spherical surface.
+      A perturbed equatorial vortex sheet self-organizes into coherent moving vortices.
+    </p>
+  </div>
 
-  <p style="font-size: 0.95em; margin-top: 0.8em;">
-    <strong>Surface vortex roll-up with HPS.</strong><br>
-    High-order HPS simulation of incompressible vorticity dynamics on a spherical surface.
-    A perturbed equatorial vortex sheet self-organizes into coherent moving vortices.
-  </p>
+  <div style="flex: 0 1 360px; min-width: 260px; text-align: center;">
+    <video style="width: 100%; max-width: 360px; height: auto; display: block; margin: 0 auto;" controls autoplay muted loop playsinline>
+      <source src="/files/vortex_hps_sphere_n.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
 </div>
 
 

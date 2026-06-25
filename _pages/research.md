@@ -10,6 +10,8 @@ author_profile: true
 
 ### Submitted
 
+- [*The Bojanov--Naidenov inequality for quartics and second derivatives*](https://arxiv.org/abs/2606.23020). Submitted.
+  
 - [*A High-Order Fast Direct Solver for Surface PDEs on Triangles*](https://arxiv.org/pdf/2604.03097). Submitted.
 
   This triangular formulation is designed for complex geometries. For structured meshes, the quadrilateral HPS formulation remains more efficient. The companion work [arXiv:2512.24456](https://arxiv.org/pdf/2512.24456) gives the broader framework, including quadrilateralization and evolving surfaces.

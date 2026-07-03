@@ -15,16 +15,16 @@ author_profile: true
     <h3><a href="https://wccm-eccomas2026.org/">WCCM–ECCOMAS 2026</a></h3>
     <p>17th World Congress on Computational Mechanics &amp; 10th European Congress on Computational Methods in Applied Sciences and Engineering. Speaker, Mini-Symposium MS235.</p>
   </li>
-  <li class="timeline-item">
-    <span class="timeline-date">April 30, 2026 · Freiberg, Germany</span>
-    <h3>TU Bergakademie Freiberg, Aland Lab Seminar</h3>
-    <p>Talk: <em>A High-Order Fast Direct Solver for Surface PDEs</em>.</p>
-  </li>
 </ul>
 
 ## Past Events
 
 <ul class="timeline">
+    <li class="timeline-item">
+    <span class="timeline-date">April 30, 2026 · Freiberg, Germany</span>
+    <h3>TU Bergakademie Freiberg, Aland Lab Seminar</h3>
+    <p>Talk: <em>A High-Order Fast Direct Solver for Surface PDEs</em>.</p>
+  </li>
   <li class="timeline-item">
     <span class="timeline-date">July 13–18, 2025 · Montréal, Canada</span>
     <h3><a href="https://icosahom2025.org/">ICOSAHOM 2025</a></h3>

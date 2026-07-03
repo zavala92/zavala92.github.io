@@ -27,8 +27,7 @@ I develop and analyze numerical methods for partial differential equations (PDEs
   <div class="theme-card">
     <div class="theme-card__icon"><i class="fas fa-bolt"></i></div>
     <h3> Fast methods</h3>
-    <p>Fast direct solvers for surface PDEs,</p>
-    <p> Hierarchical Poincaré–Steklov (HPS) scheme.</p>
+    <p>Fast direct solvers for surface PDEs, Hierarchical Poincaré–Steklov (HPS) scheme.</p>
   </div>
   <div class="theme-card">
     <div class="theme-card__icon"><i class="fas fa-water"></i></div>

@@ -22,12 +22,13 @@ I develop and analyze numerical methods for partial differential equations (PDEs
   <div class="theme-card">
     <div class="theme-card__icon"><i class="fas fa-draw-polygon"></i></div>
     <h3>High-order approximation &amp; quadrature</h3>
-    <p>Super-algebraic integration and interpolation on curved, triangulated surfaces.</p>
+    <p>Integration and interpolation on surfaces.</p>
   </div>
   <div class="theme-card">
     <div class="theme-card__icon"><i class="fas fa-bolt"></i></div>
-    <h3>Fast direct solvers</h3>
-    <p>Fast methods for surface PDEs.</p>
+    <h3> Fast methods</h3>
+    <p>Fast direct solvers for surface PDEs,</p>
+    <p> Hierarchical Poincaré–Steklov (HPS) scheme.</p>
   </div>
   <div class="theme-card">
     <div class="theme-card__icon"><i class="fas fa-water"></i></div>

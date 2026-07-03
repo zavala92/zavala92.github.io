@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<span class="hero-tagline">Numerical Analysis · Surface PDEs · Fast Direct Solvers</span>
+<span class="hero-tagline">Numerical Analysis · Surface PDEs · Fast Solvers</span>
 
 <p class="hero-lede" markdown="1">
 My name is **Gentian Zavalani**. I am currently a <strong>Wrap-up Postdoc</strong> at the Institute of Numerical Mathematics, <a href="https://tu-dresden.de/mn/math/numerik">TU Dresden</a>, Germany. I completed my PhD in March 2026 under the supervision of <a href="https://tu-dresden.de/mn/math/numerik/sander/startseite">Oliver Sander</a> and <a href="https://sites.google.com/view/prof-dr-michael-hecht/home?authuser=0">Michael Hecht</a>.
@@ -27,7 +27,7 @@ I develop and analyze numerical methods for partial differential equations (PDEs
   <div class="theme-card">
     <div class="theme-card__icon"><i class="fas fa-bolt"></i></div>
     <h3>Fast direct solvers</h3>
-    <p>Hierarchical Poincaré–Steklov (HPS) solvers for elliptic PDEs on general surfaces.</p>
+    <p>Fast methods for surface PDEs.</p>
   </div>
   <div class="theme-card">
     <div class="theme-card__icon"><i class="fas fa-water"></i></div>

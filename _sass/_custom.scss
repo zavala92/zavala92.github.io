@@ -9,37 +9,37 @@
    -------------------------------------------------------------------------- */
 
 :root {
-    --accent-color              : #0e7490;
-    --accent-color-dark         : #155e75;
-    --accent-color-soft         : rgba(14, 116, 144, 0.08);
+    --accent-color              : #1d4ed8;
+    --accent-color-dark         : #1e3a8a;
+    --accent-color-soft         : rgba(37, 99, 235, 0.08);
     --card-bg-color             : #ffffff;
     --card-border-color         : #e2e8f0;
     --card-shadow               : 0 1px 2px rgba(15, 23, 42, 0.04), 0 6px 18px rgba(15, 23, 42, 0.06);
     --card-shadow-hover         : 0 2px 4px rgba(15, 23, 42, 0.06), 0 12px 28px rgba(15, 23, 42, 0.10);
-    --badge-bg-color            : #ecfeff;
-    --badge-text-color          : #155e75;
+    --badge-bg-color            : #eff6ff;
+    --badge-text-color          : #1e3a8a;
 
-    --global-link-color         : #0e7490;
-    --global-link-color-hover   : #155e75;
-    --global-link-color-visited : #0e7490;
+    --global-link-color         : #1d4ed8;
+    --global-link-color-hover   : #1e3a8a;
+    --global-link-color-visited : #1d4ed8;
     --global-text-color         : #334155;
     --global-masthead-link-color: #0f172a;
 }
 
 html[data-theme="dark"] {
-    --accent-color              : #22d3ee;
-    --accent-color-dark         : #67e8f9;
-    --accent-color-soft         : rgba(34, 211, 238, 0.12);
+    --accent-color              : #60a5fa;
+    --accent-color-dark         : #93c5fd;
+    --accent-color-soft         : rgba(96, 165, 250, 0.14);
     --card-bg-color             : #3f3f3f;
     --card-border-color         : #5a5a5a;
     --card-shadow               : 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 18px rgba(0, 0, 0, 0.35);
     --card-shadow-hover         : 0 2px 4px rgba(0, 0, 0, 0.35), 0 12px 28px rgba(0, 0, 0, 0.45);
-    --badge-bg-color            : rgba(34, 211, 238, 0.15);
-    --badge-text-color          : #a5f3fc;
+    --badge-bg-color            : rgba(96, 165, 250, 0.16);
+    --badge-text-color          : #bfdbfe;
 
-    --global-link-color         : #22d3ee;
-    --global-link-color-hover   : #67e8f9;
-    --global-link-color-visited : #22d3ee;
+    --global-link-color         : #60a5fa;
+    --global-link-color-hover   : #93c5fd;
+    --global-link-color-visited : #60a5fa;
 }
 
 /* --------------------------------------------------------------------------
@@ -503,4 +503,263 @@ html[data-theme="dark"] .hero-lede strong {
 
 .btn--inverse {
     border-radius: 999px;
+}
+
+/* ==========================================================================
+   SIGNATURE DESIGN SYSTEM ("astonishing" upgrade)
+   Gradient identity, aurora backdrop, glass masthead, glow cards,
+   gradient timeline, scroll-reveal animations. Later rules override above.
+   ========================================================================== */
+
+:root {
+    --signature-a          : #1e3a8a;
+    --signature-b          : #2563eb;
+    --signature-c          : #0ea5e9;
+    --signature-gradient   : linear-gradient(120deg, #1e3a8a 0%, #2563eb 55%, #0ea5e9 100%);
+    --signature-glow       : rgba(37, 99, 235, 0.18);
+    --aurora-opacity       : 0.5;
+    --masthead-glass       : rgba(255, 255, 255, 0.72);
+}
+
+html[data-theme="dark"] {
+    --signature-a          : #38bdf8;
+    --signature-b          : #60a5fa;
+    --signature-c          : #93c5fd;
+    --signature-gradient   : linear-gradient(120deg, #38bdf8 0%, #60a5fa 55%, #93c5fd 100%);
+    --signature-glow       : rgba(96, 165, 250, 0.28);
+    --aurora-opacity       : 0.22;
+    --masthead-glass       : rgba(63, 63, 63, 0.72);
+}
+
+::selection {
+    background: rgba(59, 130, 246, 0.25);
+}
+
+/* --------------------------------------------------------------------------
+   Aurora backdrop — soft drifting color fields behind the content.
+   body must be transparent so the fixed pseudo-elements (z-index -1)
+   paint above the page background, which moves to <html>.
+   -------------------------------------------------------------------------- */
+
+html {
+    background-color: var(--global-bg-color);
+}
+
+body {
+    background-color: transparent;
+}
+
+body::before,
+body::after {
+    content: "";
+    position: fixed;
+    z-index: -1;
+    border-radius: 50%;
+    opacity: var(--aurora-opacity);
+    pointer-events: none;
+}
+
+body::before {
+    width: 760px;
+    height: 760px;
+    top: -280px;
+    right: -220px;
+    background:
+        radial-gradient(circle at 30% 30%, rgba(30, 64, 175, 0.26), transparent 55%),
+        radial-gradient(circle at 70% 60%, rgba(37, 99, 235, 0.22), transparent 52%);
+    animation: aurora-drift 18s ease-in-out infinite alternate;
+}
+
+body::after {
+    width: 680px;
+    height: 680px;
+    bottom: -260px;
+    left: -240px;
+    background:
+        radial-gradient(circle at 60% 40%, rgba(14, 165, 233, 0.18), transparent 55%),
+        radial-gradient(circle at 30% 70%, rgba(59, 130, 246, 0.16), transparent 55%);
+    animation: aurora-drift 24s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes aurora-drift {
+    from { transform: translate3d(0, 0, 0) scale(1); }
+    to   { transform: translate3d(-45px, 35px, 0) scale(1.15); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    body::before,
+    body::after {
+        animation: none;
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Glass sticky masthead
+   -------------------------------------------------------------------------- */
+
+.masthead {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: var(--masthead-glass);
+    -webkit-backdrop-filter: blur(12px) saturate(1.6);
+    backdrop-filter: blur(12px) saturate(1.6);
+}
+
+.greedy-nav {
+    background: transparent;
+
+    .visible-links a:before {
+        background: var(--signature-gradient);
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Gradient page titles + section heading accents
+   -------------------------------------------------------------------------- */
+
+.page__title {
+    font-size: 2.4em;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: var(--global-masthead-link-color);
+    background: var(--signature-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page__content h2 {
+    border-bottom: none;
+    position: relative;
+    padding-bottom: 0.45em;
+
+    &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 64px;
+        height: 3px;
+        border-radius: 2px;
+        background: var(--signature-gradient);
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Gradient identity on components
+   -------------------------------------------------------------------------- */
+
+.hero-tagline {
+    border: 1px solid transparent;
+    background:
+        linear-gradient(var(--global-bg-color), var(--global-bg-color)) padding-box,
+        var(--signature-gradient) border-box;
+    color: var(--accent-color);
+}
+
+.author__avatar img {
+    border: 3px solid transparent;
+    background: var(--signature-gradient) border-box;
+    box-shadow: 0 10px 26px rgba(15, 23, 42, 0.18);
+}
+
+.theme-card,
+.sw-card {
+    border: 1px solid transparent;
+    border-top-width: 3px;
+    background:
+        linear-gradient(var(--card-bg-color), var(--card-bg-color)) padding-box,
+        var(--signature-gradient) border-box;
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 14px 34px var(--signature-glow);
+    }
+}
+
+.pub-item {
+    border: 1px solid var(--card-border-color);
+
+    &:hover {
+        border: 1px solid transparent;
+        background:
+            linear-gradient(var(--card-bg-color), var(--card-bg-color)) padding-box,
+            var(--signature-gradient) border-box;
+        box-shadow: 0 12px 30px var(--signature-glow);
+    }
+}
+
+.pub-venue {
+    background: linear-gradient(120deg, rgba(30, 64, 175, 0.10), rgba(14, 165, 233, 0.12));
+}
+
+html[data-theme="dark"] .pub-venue {
+    background: linear-gradient(120deg, rgba(96, 165, 250, 0.16), rgba(56, 189, 248, 0.16));
+}
+
+.pub-link:hover {
+    background: var(--signature-gradient);
+    border-color: transparent;
+    color: #fff;
+}
+
+.highlight-card {
+    border-left: none;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 4px;
+        background: var(--signature-gradient);
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Gradient timeline
+   -------------------------------------------------------------------------- */
+
+.timeline {
+    border-left: none;
+    position: relative;
+
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 4px;
+        bottom: 4px;
+        width: 2px;
+        border-radius: 1px;
+        background: linear-gradient(to bottom, var(--signature-a), var(--signature-b), var(--signature-c));
+        opacity: 0.55;
+    }
+}
+
+.timeline-item:before {
+    background: var(--signature-gradient);
+    box-shadow: 0 0 0 3px var(--accent-color-soft), 0 0 12px var(--signature-glow);
+}
+
+/* --------------------------------------------------------------------------
+   Scroll-reveal animations (JS adds .reveal + .is-visible; reduced-motion safe)
+   -------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: no-preference) {
+    html.js .reveal {
+        opacity: 0;
+        transform: translateY(16px);
+        transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    html.js .reveal.is-visible {
+        opacity: 1;
+        transform: none;
+    }
 }

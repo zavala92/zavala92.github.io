@@ -1,0 +1,506 @@
+/* ==========================================================================
+   CUSTOM DESIGN LAYER
+   Typography, accent palette, and bespoke components for the whole site.
+   Imported last from assets/css/main.scss so it overrides the theme.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Palette (light + dark)
+   -------------------------------------------------------------------------- */
+
+:root {
+    --accent-color              : #0e7490;
+    --accent-color-dark         : #155e75;
+    --accent-color-soft         : rgba(14, 116, 144, 0.08);
+    --card-bg-color             : #ffffff;
+    --card-border-color         : #e2e8f0;
+    --card-shadow               : 0 1px 2px rgba(15, 23, 42, 0.04), 0 6px 18px rgba(15, 23, 42, 0.06);
+    --card-shadow-hover         : 0 2px 4px rgba(15, 23, 42, 0.06), 0 12px 28px rgba(15, 23, 42, 0.10);
+    --badge-bg-color            : #ecfeff;
+    --badge-text-color          : #155e75;
+
+    --global-link-color         : #0e7490;
+    --global-link-color-hover   : #155e75;
+    --global-link-color-visited : #0e7490;
+    --global-text-color         : #334155;
+    --global-masthead-link-color: #0f172a;
+}
+
+html[data-theme="dark"] {
+    --accent-color              : #22d3ee;
+    --accent-color-dark         : #67e8f9;
+    --accent-color-soft         : rgba(34, 211, 238, 0.12);
+    --card-bg-color             : #3f3f3f;
+    --card-border-color         : #5a5a5a;
+    --card-shadow               : 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 18px rgba(0, 0, 0, 0.35);
+    --card-shadow-hover         : 0 2px 4px rgba(0, 0, 0, 0.35), 0 12px 28px rgba(0, 0, 0, 0.45);
+    --badge-bg-color            : rgba(34, 211, 238, 0.15);
+    --badge-text-color          : #a5f3fc;
+
+    --global-link-color         : #22d3ee;
+    --global-link-color-hover   : #67e8f9;
+    --global-link-color-visited : #22d3ee;
+}
+
+/* --------------------------------------------------------------------------
+   Typography
+   -------------------------------------------------------------------------- */
+
+$body-font   : "Inter", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$display-font: "Source Serif 4", Georgia, Times, serif;
+
+body {
+    font-family: $body-font;
+    font-size: 17px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4,
+.page__title,
+.archive__item-title,
+.author__name {
+    font-family: $display-font;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--global-masthead-link-color);
+}
+
+html[data-theme="dark"] {
+    h1, h2, h3, h4,
+    .page__title,
+    .archive__item-title,
+    .author__name {
+        color: var(--global-text-color);
+    }
+}
+
+.page__content {
+    h2 {
+        margin-top: 2.2em;
+        padding-bottom: 0.35em;
+        border-bottom: 1px solid var(--card-border-color);
+    }
+
+    h3 {
+        margin-top: 1.6em;
+    }
+
+    a:not(.btn):not(.pub-link) {
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition: border-color 0.15s ease-in-out, color 0.15s ease-in-out;
+
+        &:hover {
+            border-bottom-color: var(--accent-color);
+        }
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Masthead + navigation
+   -------------------------------------------------------------------------- */
+
+.masthead {
+    border-bottom: 1px solid var(--card-border-color);
+    background: var(--global-bg-color);
+
+    .site-title {
+        font-family: $display-font;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+    }
+}
+
+.greedy-nav {
+    a.site-title:hover {
+        color: var(--accent-color);
+    }
+
+    .visible-links a {
+        &:before {
+            height: 3px;
+            background: var(--accent-color);
+        }
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Author sidebar profile
+   -------------------------------------------------------------------------- */
+
+.author__avatar img {
+    max-width: 155px;
+    border: 3px solid var(--card-bg-color);
+    box-shadow: 0 0 0 2px var(--accent-color), 0 8px 20px rgba(15, 23, 42, 0.15);
+}
+
+.author__bio {
+    font-size: 0.9em;
+    color: var(--global-text-color-light);
+}
+
+.author__urls a {
+    text-decoration: none;
+
+    &:hover {
+        color: var(--accent-color);
+        text-decoration: underline;
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Hero intro (About page)
+   -------------------------------------------------------------------------- */
+
+.hero-lede {
+    font-size: 1.18em;
+    line-height: 1.75;
+
+    strong {
+        color: var(--global-masthead-link-color);
+    }
+}
+
+html[data-theme="dark"] .hero-lede strong {
+    color: var(--global-text-color);
+}
+
+.hero-tagline {
+    display: inline-block;
+    margin: 0 0 1em;
+    padding: 0.3em 0.9em;
+    border-radius: 999px;
+    background: var(--accent-color-soft);
+    color: var(--badge-text-color);
+    font-size: 0.82em;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+/* --------------------------------------------------------------------------
+   Research theme cards
+   -------------------------------------------------------------------------- */
+
+.theme-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+    gap: 1rem;
+    margin: 1.6em 0 2em;
+}
+
+.theme-card {
+    padding: 1.1rem 1.2rem;
+    border: 1px solid var(--card-border-color);
+    border-top: 3px solid var(--accent-color);
+    border-radius: 10px;
+    background: var(--card-bg-color);
+    box-shadow: var(--card-shadow);
+    transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--card-shadow-hover);
+    }
+
+    .theme-card__icon {
+        font-size: 1.35em;
+        color: var(--accent-color);
+        margin-bottom: 0.4rem;
+    }
+
+    h3 {
+        margin: 0 0 0.4rem;
+        font-size: 1.02em;
+        border: none;
+        padding: 0;
+    }
+
+    p {
+        margin: 0;
+        font-size: 0.88em;
+        line-height: 1.55;
+        color: var(--global-text-color-light);
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Figure strip + featured video
+   -------------------------------------------------------------------------- */
+
+.figure-strip {
+    display: block;
+    margin: 2em 0;
+    padding: 1.1rem 1.1rem 0.9rem;
+    border: 1px solid var(--card-border-color);
+    border-radius: 12px;
+    background: var(--card-bg-color);
+    box-shadow: var(--card-shadow);
+
+    .figure-strip__row {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.7rem;
+
+        @media (max-width: 600px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    img {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    figcaption {
+        margin-top: 0.8rem;
+        font-family: $body-font;
+        font-size: 0.85em;
+        line-height: 1.55;
+        color: var(--global-text-color-light);
+        text-align: center;
+    }
+}
+
+.video-feature {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 2em 0;
+    padding: 1.2rem 1.4rem;
+    border: 1px solid var(--card-border-color);
+    border-radius: 12px;
+    background: var(--card-bg-color);
+    box-shadow: var(--card-shadow);
+
+    .video-feature__media {
+        flex: 0 1 360px;
+        min-width: 250px;
+
+        video {
+            width: 100%;
+            display: block;
+            border-radius: 8px;
+        }
+    }
+
+    .video-feature__text {
+        flex: 1 1 260px;
+        min-width: 240px;
+        font-size: 0.93em;
+        line-height: 1.6;
+
+        p { margin: 0; }
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Highlight / notice card (teaching, news)
+   -------------------------------------------------------------------------- */
+
+.highlight-card {
+    margin: 1.8em 0;
+    padding: 1.1rem 1.3rem;
+    border-left: 4px solid var(--accent-color);
+    border-radius: 0 10px 10px 0;
+    background: var(--accent-color-soft);
+
+    p { margin: 0.35em 0; }
+
+    p:first-child { margin-top: 0; }
+    p:last-child { margin-bottom: 0; }
+}
+
+/* --------------------------------------------------------------------------
+   Publication list (Research page)
+   -------------------------------------------------------------------------- */
+
+.pub-item {
+    margin: 0 0 1.4em;
+    padding: 1.05rem 1.25rem;
+    border: 1px solid var(--card-border-color);
+    border-radius: 10px;
+    background: var(--card-bg-color);
+    box-shadow: var(--card-shadow);
+    transition: box-shadow 0.15s ease-in-out;
+
+    &:hover {
+        box-shadow: var(--card-shadow-hover);
+    }
+
+    .pub-title {
+        margin: 0 0 0.3rem;
+        font-family: $display-font;
+        font-size: 1.05em;
+        font-weight: 600;
+        line-height: 1.45;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+
+            &:hover { color: var(--accent-color); }
+        }
+    }
+
+    .pub-authors {
+        margin: 0 0 0.45rem;
+        font-size: 0.87em;
+        color: var(--global-text-color-light);
+    }
+
+    .pub-note {
+        margin: 0.5rem 0 0;
+        font-size: 0.85em;
+        line-height: 1.55;
+        color: var(--global-text-color-light);
+    }
+}
+
+.pub-venue {
+    display: inline-block;
+    margin-right: 0.4rem;
+    padding: 0.15em 0.7em;
+    border-radius: 999px;
+    background: var(--badge-bg-color);
+    color: var(--badge-text-color);
+    font-size: 0.76em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.pub-links {
+    margin-top: 0.55rem;
+}
+
+.pub-link {
+    display: inline-block;
+    margin: 0.15rem 0.35rem 0.15rem 0;
+    padding: 0.18em 0.8em;
+    border: 1px solid var(--accent-color);
+    border-radius: 999px;
+    color: var(--accent-color);
+    font-size: 0.78em;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.15s ease-in-out, color 0.15s ease-in-out;
+
+    &:visited { color: var(--accent-color); }
+
+    &:hover {
+        background: var(--accent-color);
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Software cards
+   -------------------------------------------------------------------------- */
+
+.sw-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 1.4em 0 2em;
+}
+
+.sw-card {
+    padding: 1.1rem 1.2rem;
+    border: 1px solid var(--card-border-color);
+    border-radius: 10px;
+    background: var(--card-bg-color);
+    box-shadow: var(--card-shadow);
+    transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--card-shadow-hover);
+    }
+
+    h3 {
+        margin: 0 0 0.4rem;
+        font-size: 1.05em;
+        border: none;
+        padding: 0;
+
+        i {
+            color: var(--accent-color);
+            margin-right: 0.4rem;
+        }
+
+        a { text-decoration: none; }
+    }
+
+    p {
+        margin: 0;
+        font-size: 0.88em;
+        line-height: 1.55;
+        color: var(--global-text-color-light);
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Timeline (Activities page)
+   -------------------------------------------------------------------------- */
+
+.timeline {
+    position: relative;
+    margin: 1.5em 0 2.5em;
+    padding-left: 1.6rem;
+    border-left: 2px solid var(--card-border-color);
+    list-style: none;
+}
+
+.timeline-item {
+    position: relative;
+    margin: 0 0 1.6em;
+
+    &:before {
+        content: "";
+        position: absolute;
+        left: calc(-1.6rem - 7px);
+        top: 0.45em;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: var(--accent-color);
+        box-shadow: 0 0 0 3px var(--accent-color-soft);
+    }
+
+    .timeline-date {
+        display: block;
+        font-size: 0.8em;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var(--accent-color);
+        margin-bottom: 0.15rem;
+    }
+
+    h3 {
+        margin: 0 0 0.25rem;
+        font-size: 1.05em;
+    }
+
+    p {
+        margin: 0;
+        font-size: 0.9em;
+        color: var(--global-text-color-light);
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Small refinements
+   -------------------------------------------------------------------------- */
+
+.page__footer {
+    border-top: 1px solid var(--card-border-color);
+}
+
+.btn--inverse {
+    border-radius: 999px;
+}

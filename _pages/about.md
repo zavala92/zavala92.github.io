@@ -8,43 +8,55 @@ redirect_from:
   - /about.html
 ---
 
-My name is **Gentian Zavalani**. I am currently a **Wrap-up Postdoc** at the Institute of Numerical Mathematics, [TU Dresden](https://tu-dresden.de/mn/math/numerik), Germany.  
+<span class="hero-tagline">Numerical Analysis · Surface PDEs · Fast Direct Solvers</span>
 
-I completed my PhD in March 2026 at the Institute of Numerical Mathematics, TU Dresden, under the supervision of [Oliver Sander](https://tu-dresden.de/mn/math/numerik/sander/startseite) and [Michael Hecht](https://sites.google.com/view/prof-dr-michael-hecht/home?authuser=0).
-
-During my PhD, I focused on the development and analysis of numerical methods for partial differential equations (PDEs) posed on smooth two-dimensional surfaces. My work is motivated by applications in biology and physics and aims at designing fast and accurate algorithms for complex geometries.  
-
-It centers on three main themes:
-
-- **High-order approximation and quadrature on curved surfaces**  
-
-- **Fast direct solvers for surface PDEs**  
-
-- **Computational dynamics on evolving surfaces**  
-
-
-
- <p align="center">
-  <img src="/files/up_1_q.png" width="22%" />
-  <img src="/files/v1_q1_-0.55.png" width="22%" />
-  <img src="/files/v1_q2_0.55.png" width="22%" />
-  <img src="/files/v1_q3_-0.55.png" width="22%" />
-   
-  <br>
-  <strong>Figure:</strong> Left to right — baseline pattern, and patterns produced by linear, quadratic, and cubic coupling in an interacting Turing system.
+<p class="hero-lede" markdown="1">
+My name is **Gentian Zavalani**. I am currently a <strong>Wrap-up Postdoc</strong> at the Institute of Numerical Mathematics, <a href="https://tu-dresden.de/mn/math/numerik">TU Dresden</a>, Germany. I completed my PhD in March 2026 under the supervision of <a href="https://tu-dresden.de/mn/math/numerik/sander/startseite">Oliver Sander</a> and <a href="https://sites.google.com/view/prof-dr-michael-hecht/home?authuser=0">Michael Hecht</a>.
 </p>
 
+I develop and analyze numerical methods for partial differential equations (PDEs) posed on smooth two-dimensional surfaces. My work is motivated by applications in biology and physics and aims at designing **fast and accurate algorithms for complex geometries**.
 
-<div style="display: flex; align-items: center; gap: 1.5rem; margin: 2em 0; flex-wrap: wrap;">
-  <div style="flex: 0 1 360px; min-width: 260px; text-align: center;">
-    <video style="width: 100%; max-width: 360px; height: auto; display: block; margin: 0 auto;" controls autoplay muted loop playsinline>
+## Research themes
+
+<div class="theme-cards">
+  <div class="theme-card">
+    <div class="theme-card__icon"><i class="fas fa-draw-polygon"></i></div>
+    <h3>High-order approximation &amp; quadrature</h3>
+    <p>Super-algebraic integration and interpolation on curved, triangulated surfaces.</p>
+  </div>
+  <div class="theme-card">
+    <div class="theme-card__icon"><i class="fas fa-bolt"></i></div>
+    <h3>Fast direct solvers</h3>
+    <p>Hierarchical Poincaré–Steklov (HPS) solvers for elliptic PDEs on general surfaces.</p>
+  </div>
+  <div class="theme-card">
+    <div class="theme-card__icon"><i class="fas fa-water"></i></div>
+    <h3>Dynamics on evolving surfaces</h3>
+    <p>Computational methods for pattern formation and flows on moving geometries.</p>
+  </div>
+</div>
+
+<figure class="figure-strip">
+  <div class="figure-strip__row">
+    <img src="/files/up_1_q.png" alt="Baseline Turing pattern" />
+    <img src="/files/v1_q1_-0.55.png" alt="Pattern with linear coupling" />
+    <img src="/files/v1_q2_0.55.png" alt="Pattern with quadratic coupling" />
+    <img src="/files/v1_q3_-0.55.png" alt="Pattern with cubic coupling" />
+  </div>
+  <figcaption>
+    <strong>Interacting Turing systems.</strong> Left to right: baseline pattern, and patterns produced by linear, quadratic, and cubic coupling.
+  </figcaption>
+</figure>
+
+<div class="video-feature">
+  <div class="video-feature__media">
+    <video controls autoplay muted loop playsinline>
       <source src="/files/vortex_hps_sphere_n.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
-
-  <div style="flex: 1 1 280px; min-width: 260px;">
-    <p style="font-size: 0.95em; margin: 0;">
+  <div class="video-feature__text">
+    <p>
       <strong>Surface vortex roll-up with HPS.</strong><br>
       High-order HPS simulation of incompressible vorticity dynamics on a spherical surface.
       A perturbed equatorial vortex sheet self-organizes into coherent moving vortices.
@@ -52,9 +64,10 @@ It centers on three main themes:
   </div>
 </div>
 
+## Teaching
 
-📘 **Winter Semester 2025/26 (WiSe 2025/26):**  
-I taught a course on **Approximation Theory** at [TU Dresden](https://tu-dresden.de/mn/math/numerik).  
-The course covered both the **theoretical foundations** and **practical aspects** of function approximation and interpolation, with a focus on **high-order polynomials, trigonometric series, and rational functions**.  
+<div class="highlight-card" markdown="1">
+📘 **Winter Semester 2025/26:** I taught a course on **Approximation Theory** at [TU Dresden](https://tu-dresden.de/mn/math/numerik), covering the theoretical foundations and practical aspects of function approximation and interpolation — high-order polynomials, trigonometric series, and rational functions.
 
-📝 Lecture notes are available here ["Approximation Theory"](/files/Notes%20on%20Approximation%20Theory.pdf){:target="_blank"}.
+📝 Lecture notes: ["Notes on Approximation Theory"](/files/Notes%20on%20Approximation%20Theory.pdf){:target="_blank"}
+</div>

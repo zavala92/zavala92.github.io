@@ -67,7 +67,7 @@ I develop and analyze numerical methods for partial differential equations (PDEs
 ## Teaching
 
 <div class="highlight-card" markdown="1">
-📘 **Winter Semester 2025/26:** I taught a course on **Approximation Theory** at [TU Dresden](https://tu-dresden.de/mn/math/numerik), covering the theoretical foundations and practical aspects of function approximation and interpolation — high-order polynomials, trigonometric series, and rational functions.
+📘 **Winter Semester 2025/26:** I taught a course on **Approximation Theory** at [TU Dresden](https://tu-dresden.de/mn/math/numerik), covering the theoretical foundations and practical aspects of function approximation and interpolation — high-order polynomials, and rational functions.
 
 📝 Lecture notes: ["Notes on Approximation Theory"](/files/Notes%20on%20Approximation%20Theory.pdf){:target="_blank"}
 </div>

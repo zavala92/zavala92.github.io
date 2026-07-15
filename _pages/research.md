@@ -96,7 +96,7 @@ author_profile: true
 ## PhD Thesis
 
 <div class="pub-item">
-  <p class="pub-title"><a href="https://github.com/zavala92/zavala92.github.io/blob/master/files/PhD_Thesis_Gentian.pdf">Spectral Discretizations on Surfaces: High-Order Methods for Integration and PDE Solvers</a></p>
+  <p class="pub-title"><a href="https://tud.qucosa.de/landing-page/?tx_dlf[id]=https%3A%2F%2Ftud.qucosa.de%2Fapi%2Fqucosa%253A105446%2Fmets">Spectral Discretizations on Surfaces: High-Order Methods for Integration and PDE Solvers</a></p>
   <p class="pub-authors">Technische Universität Dresden (2026) — supervised by Oliver Sander &amp; Michael Hecht</p>
   <div class="pub-links">
     <span class="pub-venue">PhD Thesis</span>

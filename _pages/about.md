@@ -16,6 +16,8 @@ My name is **Gentian Zavalani**. I am currently a <strong>Wrap-up Postdoc</stron
 
 I develop and analyze numerical methods for partial differential equations (PDEs) posed on smooth two-dimensional surfaces. My work is motivated by applications in biology and physics and aims at designing **fast and accurate algorithms for complex geometries**.
 
+More recently I have been working on **rational approximation**. It started as a detour and became one of my main interests. I find it beautiful how much a few poles can carry: they turn an approximation problem on a boundary into a quadrature or cubature rule, and they give hyperfunctions a form you can compute with.
+
 ## Research themes
 
 <div class="theme-cards">
@@ -33,6 +35,11 @@ I develop and analyze numerical methods for partial differential equations (PDEs
     <div class="theme-card__icon"><i class="fas fa-water"></i></div>
     <h3>Dynamics on evolving surfaces</h3>
     <p>Computational methods for pattern formation and flows on moving geometries.</p>
+  </div>
+  <div class="theme-card">
+    <div class="theme-card__icon"><i class="fas fa-infinity"></i></div>
+    <h3>Rational approximation</h3>
+    <p>Poles and residues as a computational tool: cubature from boundary data, and a calculus for hyperfunctions.</p>
   </div>
 </div>
 
@@ -67,7 +74,7 @@ I develop and analyze numerical methods for partial differential equations (PDEs
 ## Teaching
 
 <div class="highlight-card" markdown="1">
-📘 **Winter Semester 2025/26:** I taught a course on **Approximation Theory** at [TU Dresden](https://tu-dresden.de/mn/math/numerik), covering the theoretical foundations and practical aspects of function approximation and interpolation — high-order polynomials, and rational functions.
+📘 **Winter Semester 2025/26:** I taught a course on **Approximation Theory** at [TU Dresden](https://tu-dresden.de/mn/math/numerik), covering the theoretical foundations and practical aspects of function approximation and interpolation — high-order polynomials, trigonometric series, and rational functions.
 
 📝 Lecture notes: ["Notes on Approximation Theory"](/files/Notes%20on%20Approximation%20Theory.pdf){:target="_blank"}
 </div>

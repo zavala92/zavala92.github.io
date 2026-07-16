@@ -24,7 +24,7 @@ More recently I have been working on **rational approximation**. It started as a
   <div class="theme-card">
     <div class="theme-card__icon"><i class="fas fa-draw-polygon"></i></div>
     <h3>High-order approximation &amp; quadrature</h3>
-    <p>Integration and interpolation on surfaces.</p>
+    <p>Integration and interpolation on surfaces. Rational approximation as a computational tool: cubature from boundary data, and a calculus for hyperfunctions.</p>
   </div>
   <div class="theme-card">
     <div class="theme-card__icon"><i class="fas fa-bolt"></i></div>
@@ -35,11 +35,6 @@ More recently I have been working on **rational approximation**. It started as a
     <div class="theme-card__icon"><i class="fas fa-water"></i></div>
     <h3>Dynamics on evolving surfaces</h3>
     <p>Computational methods for pattern formation and flows on moving geometries.</p>
-  </div>
-  <div class="theme-card">
-    <div class="theme-card__icon"><i class="fas fa-infinity"></i></div>
-    <h3>Rational approximation</h3>
-    <p>Poles and residues as a computational tool: cubature from boundary data, and a calculus for hyperfunctions.</p>
   </div>
 </div>
 

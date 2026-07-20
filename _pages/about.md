@@ -16,7 +16,7 @@ My name is **Gentian Zavalani**. I am currently a <strong>Wrap-up Postdoc</stron
 
 I develop and analyze numerical methods for partial differential equations (PDEs) posed on smooth two-dimensional surfaces. My work is motivated by applications in biology and physics and aims at designing **fast and accurate algorithms for complex geometries**.
 
-More recently I have been working on **rational approximation**. It started as a detour and became one of my main interests. I find it beautiful how much a few poles can carry: they turn an approximation problem on a boundary into a quadrature or cubature rule, and they give hyperfunctions a form you can compute with.
+More recently I have been working on **rational approximation**. It started as a detour and became one of my main interests. I find it beautiful how much a few poles can carry...
 
 ## Research themes
 

@@ -16,7 +16,7 @@ My name is **Gentian Zavalani**. I am currently a <strong>Wrap-up Postdoc</stron
 
 I develop and analyze numerical methods for partial differential equations (PDEs) posed on smooth two-dimensional surfaces. My work is motivated by applications in biology and physics and aims at designing **fast and accurate algorithms for complex geometries**.
 
-More recently I have been working on **rational approximation**. It started as a detour and became one of my main interests. I find it beautiful how much a few poles can carry...
+More recently I have been working on **rational approximation**.
 
 ## Research themes
 
@@ -24,7 +24,7 @@ More recently I have been working on **rational approximation**. It started as a
   <div class="theme-card">
     <div class="theme-card__icon"><i class="fas fa-draw-polygon"></i></div>
     <h3>High-order approximation &amp; quadrature</h3>
-    <p>Integration and interpolation on surfaces. Rational approximation as a computational tool: cubature from boundary data, and a calculus for hyperfunctions.</p>
+    <p>Integration and interpolation on surfaces, rational approximation.</p>
   </div>
   <div class="theme-card">
     <div class="theme-card__icon"><i class="fas fa-bolt"></i></div>

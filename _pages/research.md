@@ -10,8 +10,9 @@ author_profile: true
 ## Papers
 
 ### Submitted
+
 <div class="pub-item">
-  <p class="pub-title"><a href="https://arxiv.org/abs/2606.23020">Cubature from rational approximation</a></p>
+  <p class="pub-title"><a href="https://arxiv.org/pdf/2607.17851">Cubature from rational approximation</a></p>
   <div class="pub-links">
     <span class="pub-venue">Submitted</span>
     <a class="pub-link" href="https://arxiv.org/pdf/2607.17851">arXiv</a>

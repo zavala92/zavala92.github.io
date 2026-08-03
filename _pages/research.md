@@ -12,6 +12,15 @@ author_profile: true
 ### Submitted
 
 <div class="pub-item">
+  <p class="pub-title"><a href="https://arxiv.org/pdf/2607.29466">Odd behaviour of even geometries: an explanation for superconvergent geometric consistency errors</a></p>
+    <p class="pub-authors">With Hanne Hardering and Simon Praetorius</p>
+  <div class="pub-links">
+    <span class="pub-venue">Submitted</span>
+    <a class="pub-link" href="https://arxiv.org/pdf/2607.29466">arXiv</a>
+  </div>
+</div>
+
+<div class="pub-item">
   <p class="pub-title"><a href="https://arxiv.org/pdf/2607.17851">Cubature from rational approximation</a></p>
   <div class="pub-links">
     <span class="pub-venue">Submitted</span>

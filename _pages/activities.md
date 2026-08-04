@@ -9,6 +9,10 @@ author_profile: true
 
 ## Upcoming Events
 
+
+
+## Past Events
+
 <ul class="timeline">
   <li class="timeline-item">
     <span class="timeline-date">July 19–24, 2026 · Munich, Germany</span>
@@ -16,8 +20,6 @@ author_profile: true
     <p>17th World Congress on Computational Mechanics &amp; 10th European Congress on Computational Methods in Applied Sciences and Engineering. Speaker, Mini-Symposium MS235.</p>
   </li>
 </ul>
-
-## Past Events
 
 <ul class="timeline">
     <li class="timeline-item">

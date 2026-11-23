@@ -21,14 +21,6 @@ author_profile: true
 </div>
 
 <div class="pub-item">
-  <p class="pub-title"><a href="https://arxiv.org/pdf/2607.17851">Cubature from rational approximation</a></p>
-  <div class="pub-links">
-    <span class="pub-venue">Submitted</span>
-    <a class="pub-link" href="https://arxiv.org/pdf/2607.17851">arXiv</a>
-  </div>
-</div>
-
-<div class="pub-item">
   <p class="pub-title"><a href="https://arxiv.org/abs/2606.23020">The Bojanov–Naidenov inequality for quartics and second derivatives</a></p>
   <div class="pub-links">
     <span class="pub-venue">Submitted</span>
@@ -52,6 +44,15 @@ author_profile: true
 </div>
 
 ### Published
+
+<div class="pub-item">
+  <p class="pub-title"><a href="https://arxiv.org/pdf/2607.17851">Cubature from rational approximation</a></p>
+  <div class="pub-links">
+    <span class="pub-venue">IMA J. Numer. Anal., to appear</span>
+    <a class="pub-link" href="https://arxiv.org/pdf/2607.17851">arXiv</a>
+  </div>
+</div>
+ </p>
 
 <div class="pub-item">
   <p class="pub-title"><a href="https://epubs.siam.org/doi/full/10.1137/24M1707274">High-Order Integration on Regular Triangulated Manifolds Reaches Super-Algebraic Approximation Rates through Cubical Re-parameterizations</a></p>

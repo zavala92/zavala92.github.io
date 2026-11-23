@@ -52,7 +52,7 @@ author_profile: true
     <a class="pub-link" href="https://arxiv.org/pdf/2607.17851">arXiv</a>
   </div>
 </div>
- </p>
+
 
 <div class="pub-item">
   <p class="pub-title"><a href="https://epubs.siam.org/doi/full/10.1137/24M1707274">High-Order Integration on Regular Triangulated Manifolds Reaches Super-Algebraic Approximation Rates through Cubical Re-parameterizations</a></p>

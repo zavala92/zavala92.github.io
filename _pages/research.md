@@ -48,8 +48,8 @@ author_profile: true
 <div class="pub-item">
   <p class="pub-title"><a href="https://arxiv.org/pdf/2607.17851">Cubature from rational approximation</a></p>
   <div class="pub-links">
-    <span class="pub-venue">IMA J. Numer. Anal., to appear</span>
-    <a class="pub-link" href="https://arxiv.org/pdf/2607.17851">arXiv</a>
+    <span class="pub-venue">IMA J. Numer. Anal.</span>
+    <a class="pub-link" href="https://doi.org/10.1093/imanum/drag161">DOI</a>
   </div>
 </div>
 
